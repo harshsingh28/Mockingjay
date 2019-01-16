@@ -1,0 +1,30 @@
+<html>
+<head>
+  <script type="text/javascript">
+  var x=0;
+  var sum=0;
+  var s=0;
+  alert("enter a value");
+  var arr=new Array();
+
+  do
+  {
+    x=prompt("enter value");
+
+    sum=(sum+parseInt(x));
+    if (x==0)break;
+
+    arr.push(x);
+    //alert(sum);
+  }
+  while(x>0);
+  var cnt=arr.length;
+  cnt--;
+  
+  alert ("AVG="+(sum/cnt));
+  arr.sort();
+  alert("Min="+arr[0]);
+  alert("Max="+arr[cnt]);
+  </script>
+  </head>
+  </html>

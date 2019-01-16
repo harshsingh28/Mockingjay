@@ -1,0 +1,30 @@
+<html>
+<head>
+  <script type="text/javascript">
+  var a=[[1,2],[3,4]];
+  var c=[[0,0],[0,0]];
+  var b=[[2,4],[6,8]];
+  var len=a.length
+  document.write("matrix");
+  for(i=0;i<len;i++)
+  {
+    document.write("<br>");
+  for(j=0;j<len;j++)
+  {
+    //document.write(a[i][j])
+    var x=a[i][j]+b[i][j]
+    c[i][j]=x
+    //sdocument.write(x)
+
+  }}
+
+  document.write("Addition is");
+  for(k=0;k<c.length;k++)
+  {
+    document.write("<br>");
+    for(m=0;m<c.length;m++)
+    document.write(c[k][m]);
+  }
+  </script>
+</head>
+</html>

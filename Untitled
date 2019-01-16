@@ -1,0 +1,11 @@
+<html>
+<head>
+<script type="text/javascript">
+var x=[1,2,3,4];
+var len=x.length;
+document.write ("Array elements");
+for(var y in x);
+document.write(x[y]);
+</script>
+</head>
+</html>
